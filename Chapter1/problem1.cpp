@@ -1,7 +1,6 @@
 #include<iostream>
+#include"problem1.h"
 using namespace std;
-void setPotion(int count, int* p_HPPotion, int* p_MPPotion);
-bool verifyPotion(int* p_Potion);
 int main() {
 	int status[4] = {};
 	int potion[2] = {};
