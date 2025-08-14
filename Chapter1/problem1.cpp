@@ -74,7 +74,7 @@ int main() {
 			break;
 		case 6:
 			cout << "*스킬을 사용하여 MP가 50% 소모되었습니다." << endl;
-			if (status[1]==1) {
+			if (status[1]<=1) {
 				cout << "MP가 부족합니다. 스킬을 사용할 수 없습니다." << endl;
 			} else {
 				status[1] /=2;
